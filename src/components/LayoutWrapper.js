@@ -4,9 +4,9 @@ import Header from "./Header";
 
 const LayoutWrapper = ({ children }) => {
   return (
-    <div className="container mx-auto w=full xl:w-2/3">
+    <div className="container mx-auto w-full xl:w-2/3 px-4">
       <Header />
-      <main className="px-8">{children}</main>
+      <main>{children}</main>
       <Footer />
     </div>
   );
