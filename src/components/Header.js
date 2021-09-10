@@ -12,6 +12,7 @@ const Header = () => {
         <ul className="flex mt-4 md:mt-0">
             <InternalNavLink to="/about">About</InternalNavLink>
             <InternalNavLink to="/projects">Projects</InternalNavLink>
+            <InternalNavLink to="/uses">Uses</InternalNavLink>
         </ul>
       </nav>
     </header>

@@ -1,13 +1,13 @@
 import React from 'react';
-import Intro from '../components/Intro';
+import Uses from '../components/Uses';
 import LayoutWrapper from '../components/LayoutWrapper';
 
-const IndexPage = () => {
+const UsesPage = () => {
   return (
     <LayoutWrapper>
-      <Intro />
+      <Uses />
     </LayoutWrapper>
   )
 }
 
-export default IndexPage;
+export default UsesPage;
