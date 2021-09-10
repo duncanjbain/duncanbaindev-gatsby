@@ -5,7 +5,7 @@ import InternalNavLink from "./InternalNavLink";
 const Header = () => {
   return (
     <header className="m-8 pb-4 border-b-2 flex flex-col sm:flex-row justify-between">
-      <h1 className="text-4xl text-gray-800 font-bold ml-2">
+      <h1 className="text-3xl text-gray-400 font-bold ml-2 hover:text-blue-500">
         <Link to="/">Duncan Bain</Link>
       </h1>
       <nav className="my-2">
