@@ -29,9 +29,9 @@ const Intro = () => {
         <a
           className="px-1 text-blue-500 border-blue-400 hover:border-gray-800 font-bold bg-blue-100
             transition border-b-2 0.3s ease, color 0.3s ease"
-          href="mailto:duncan@bain.io"
+          href="mailto:duncan@duncanbain.dev"
         >
-          duncan@bain.io
+          duncan@duncanbain.dev
         </a>
         .
       </p>
