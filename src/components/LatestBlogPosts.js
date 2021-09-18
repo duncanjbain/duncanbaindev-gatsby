@@ -26,12 +26,12 @@ const LatestBlogPosts = () => {
   return (
     <section>
       <header>
-        <h2 className="text-xl md:text-3xl font-bold text-blue-500 border-b-2 border-blue-400 mb-4">Latest blog posts</h2>
+        <h2 className="text-xl md:text-3xl font-medium text-gray-500 border-b-2 border-blue-400 pb-1 mb-4">Latest blog posts</h2>
       </header>
       {data.allMdx.nodes.map((blogPost) => (
         <article className="my-6 mb-8">
-          <header>
-            <h3 className="leading-tight mb-2 text-gray-800 text-xl lg:text-3xl hover:underline cursor-pointer">{blogPost.frontmatter.title}</h3>
+          <header className="mb-4">
+            <h3 className="leading-tight font-bold mb-2 text-blue-500 text-xl lg:text-3xl hover:underline cursor-pointer">{blogPost.frontmatter.title}</h3>
             <p className="text-gray-500">
               Posted <time>{blogPost.frontmatter.published}</time>
             </p>

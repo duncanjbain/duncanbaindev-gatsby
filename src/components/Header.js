@@ -11,7 +11,7 @@ import ExternalNavLink from "./ExternalNavLink";
 
 const Header = () => {
   return (
-    <header className="border-b-2 my-2 py-2 sm:py-2 sm:my-8 flex flex-col sm:flex-row justify-between">
+    <header className="my-2 py-2 sm:py-2 sm:my-8 flex flex-col sm:flex-row justify-between">
       <h1 className="text-3xl text-gray-400 font-bold hover:text-blue-500">
         <Link to="/">Duncan Bain</Link>
       </h1>
