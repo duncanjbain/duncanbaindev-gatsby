@@ -16,7 +16,7 @@ const Header = () => {
         <Link to="/">Duncan Bain</Link>
       </h1>
       <nav className="mt-2 mb-2 -ml-2 sm:-ml-0">
-        <ul className="flex gap-y-4">
+        <ul className="flex gap-x-3">
           <InternalNavLink to="/about">About</InternalNavLink>
           <InternalNavLink to="/projects">Projects</InternalNavLink>
           <InternalNavLink to="/uses">Uses</InternalNavLink>

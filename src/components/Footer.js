@@ -2,7 +2,7 @@ import React from 'react';
 
 const Footer = () => {
     return (
-<footer className="border-t-2 pt-4">
+<footer className="border-t-2 pt-4 mb-4">
     <p className="text-base text-gray-700 text-center">
       Made with{' '}
       <span className="mx-1" role="img" aria-label="Sparkly heart emoji">
