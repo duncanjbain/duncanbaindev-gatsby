@@ -18,6 +18,9 @@ const LatestBlogPosts = () => {
             published(formatString: "MMMM D, YYYY")
             isPublished
           }
+          fields {
+            shortSlug
+          }
         }
       }
     }
@@ -29,7 +32,7 @@ const LatestBlogPosts = () => {
         <h2 className="text-xl md:text-3xl font-medium text-gray-500 border-b-2 border-blue-400 pb-1 mb-4">Latest blog posts</h2>
       </header>
       {data.allMdx.nodes.map((blogPost) => (
-        <Link to={`/blog/${blogPost.slug}`}>
+        <Link to={`/blog/${blogPost.fields.shortSlug}`}>
         <article className="my-6 mb-8 cursor-pointer hover:bg-gray-100 -m-2 p-2 rounded">
           <header className="mb-4">
             <h3 className="leading-tight font-bold mb-2 text-blue-500 text-xl lg:text-3xl">{blogPost.frontmatter.title}</h3>
